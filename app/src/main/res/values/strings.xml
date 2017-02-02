@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidSamples</string>
+    <string name="title_activity_employee_list">EmployeeListActivity</string>
+    <string name="variables_example_btn">Lesson 1: Variables</string>
+    <string name="employee_example_btn">Example: Employee</string>
+    <string name="loops_btn">Lesson 2: Loops</string>
+    <string name="if_btn">Lesson 3: IF</string>
+</resources>

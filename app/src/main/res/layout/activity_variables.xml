@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_variables"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kylecarruthers.androidsamples.VariablesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="10pt"
+        android:padding="3dip"
+        android:layout_marginBottom="5dip"
+        android:text="Variables" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:padding="3dip"
+        android:layout_marginBottom="5dip"
+        android:text="Variables are the building blocks that we code with. They are pieces of memory that we can manipulate to do calculations with. Variables can have different types. The basic types in JAVA are called 'Primitive Types'. These are the lowest forms of variables. You will create variables and use them to tell the computer what you want to do." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="10pt"
+        android:padding="3dip"
+        android:layout_marginBottom="5dip"
+        android:text="Variables Types" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:text="TYPE"
+                android:layout_marginEnd="10dip"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:text="Description"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:padding="3dip"
+                android:text="EXAMPLE"/>
+        </TableRow>
+
+        <TableRow
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dip"
+            android:textSize="9pt"
+            android:text="INT"/>
+        <TextView
+            android:textSize="9pt"
+            android:text="A 32 bit whole number"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:text="390890"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="SHORT"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="A 16 bit integer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="124"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="LONG"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="A 64 bit integer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="98276463"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="LONG"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="A 64 bit integer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="98276463"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="Example"/>
+
+    </LinearLayout>
+</ScrollView>
