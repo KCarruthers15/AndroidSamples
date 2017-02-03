@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/variables_example_btn"
-            android:onClick="onVariableExamplePress"
+            android:onClick="onVariableLessonPress"
             />
         <Button
             android:id="@+id/employee_example_button"

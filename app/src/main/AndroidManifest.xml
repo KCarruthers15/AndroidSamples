@@ -15,7 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".VariablesActivity" />
+        <activity android:name=".Variables.VariablesActivity" />
         <activity
             android:name=".EmployeeListActivity"
             android:label="@string/title_activity_employee_list"

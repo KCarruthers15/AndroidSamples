@@ -1,8 +1,11 @@
-package com.example.kylecarruthers.androidsamples;
+package com.example.kylecarruthers.androidsamples.Variables;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+
+import com.example.kylecarruthers.androidsamples.R;
 
 public class VariablesActivity extends AppCompatActivity {
 
@@ -14,4 +17,9 @@ public class VariablesActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
     }
+
+    public void onVariableExamplePress(View view) {
+        System.out.print("Press!");
+    }
+
 }

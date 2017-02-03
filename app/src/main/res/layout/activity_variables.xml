@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.kylecarruthers.androidsamples.VariablesActivity">
+    tools:context="com.example.kylecarruthers.androidsamples.Variables.VariablesActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:stretchColumns="1">
+
         <TableRow>
             <TextView
                 android:layout_width="wrap_content"
@@ -94,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="9pt"
-            android:text="390890"/>
+            android:text="39089"/>
         </TableRow>
 
         <TableRow
@@ -134,7 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="9pt"
-                android:text="98276463"/>
+                android:text="9827645"/>
         </TableRow>
 
         <TableRow
@@ -146,15 +147,96 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dip"
                 android:textSize="9pt"
-                android:text="LONG"/>
+                android:text="FLOAT"/>
             <TextView
                 android:textSize="9pt"
-                android:text="A 64 bit integer"/>
+                android:text="Floating decimal point"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="9pt"
-                android:text="98276463"/>
+                android:text="1.23"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="DOUBLE"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="Double accurate float "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="1.23456"/>
+        </TableRow>
+
+        <TableRow
+        android:layout_marginTop="8dip"
+        android:layout_marginStart="5dip"
+        android:layout_marginEnd="5dip">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dip"
+            android:textSize="9pt"
+            android:text="CHAR"/>
+        <TextView
+            android:textSize="9pt"
+            android:layout_marginEnd="5dip"
+            android:text="Single unicode character"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:text="a"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="Boolean"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="True or False"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="true"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dip"
+            android:layout_marginStart="5dip"
+            android:layout_marginEnd="5dip">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dip"
+                android:textSize="9pt"
+                android:text="Byte"/>
+            <TextView
+                android:textSize="9pt"
+                android:text="A single byte (8 bits)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="9pt"
+                android:text="127"/>
         </TableRow>
 
     </TableLayout>
@@ -164,7 +246,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dip"
-        android:text="Example"/>
+        android:text="Example"
+        android:onClick="onVariableExamplePress"/>
 
     </LinearLayout>
 </ScrollView>
